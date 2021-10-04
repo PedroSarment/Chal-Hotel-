@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFF url(../imagens/bg.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+#topo {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+
+#logo {
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -900px;
+}
+
+#area-menu {
+
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: turquoise;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+
+}
+
+#conteudo-menu {
+    margin-right: 15px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+#menu-locais {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.6em;
+    color: maroon;
+
+}
+
+#menu-locais .locais {
+    float: left; 
+    line-height: 2.1em;
+}
+
+a.reserva {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+    text-decoration: none;
+
+}
+
+#navegacao {
+    margin-top: 10px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+#navegacao li a{
+    color: maroon;
+    text-decoration: none;
+    font-size: 0.8em;
+    line-height: 30px;
+    text-transform: 0.8em;
+    padding: 5px;
+
+
+}
+
+#navegacao li a:hover {
+    background: #b5ab56;
+
+}
+
+#depoimento {
+
+    margin-top: 10px;
+    float: right;
+
+}
